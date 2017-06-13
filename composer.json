@@ -17,6 +17,9 @@
         "php": ">=7.0.0",
         "hoa/compiler": "3.*"
     },
+    "replace": {
+        "doctrine/annotations": "*"
+    },
     "require-dev": {
         "doctrine/cache": "1.*",
         "phpunit/phpunit": "5.*",
