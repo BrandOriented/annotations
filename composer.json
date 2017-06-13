@@ -1,5 +1,5 @@
 {
-    "name": "doctrine/annotations",
+    "name": "brandoriented/annotations",
     "type": "library",
     "description": "Docblock Annotations Parser",
     "keywords": ["annotations", "docblock", "parser"],
