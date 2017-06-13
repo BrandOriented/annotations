@@ -30,13 +30,8 @@
         "instaclick/symfony2-coding-standard": "dev-remaster"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "Doctrine\\Common\\Annotations\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Doctrine\\Common\\AnnotationsTests\\": "tests/"
         }
     },
     "extra": {
