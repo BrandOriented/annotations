@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Doctrine\\Annotations\\": "src/"
+            "Doctrine\\Common\\Annotations\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Doctrine\\AnnotationsTests\\": "tests/"
+            "Doctrine\\Common\\AnnotationsTests\\": "tests/"
         }
     },
     "extra": {
