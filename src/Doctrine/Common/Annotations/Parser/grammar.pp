@@ -24,7 +24,7 @@
 %skip   value:space         [\x20\x09\x0a\x0d]+
 %token  value:_parenthesis  \)                          -> values
 %token  value:at            @                           -> annot
-%token  value:null          null
+%token  value:null          (^((?!null[a-z]))(null))
 %token  value:boolean       false|true
 %token  value:identifier    [\\a-zA-Z_][\\a-zA-Z0-9_]*
 %token  value:brace_        {
